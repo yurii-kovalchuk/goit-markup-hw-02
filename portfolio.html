@@ -5,39 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
-        <ul class="header-list">
-          <li class="header-item"><a class="header-link" href="./index.html">Студия</a></li>
-          <li class="header-item"><a class="header-link" href="./portfolio.html">Портфолио</a></li>
-          <li class="header-item"><a class="header-link" href=""></a>Контакты</li>
+        <a class="header-logo link" href="./index.html"
+          ><span class="accent-logo">Web</span>Studio</a
+        >
+        <ul class="nav-list list">
+          <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
+          <li class="nav-item">
+            <a class="nav-link link nav-link-current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts-list">
+      <ul class="contacts-list list">
         <li class="contacts-item">
-          <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="contacts-item">
-          <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
       <section class="filters">
         <h1 class="filters-title">Фильтр</h1>
-        <ul class="filters-list">
-          <li class="filters-item"><button class="filter-btn" type="button">Все</button></li>
-          <li class="filters-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
+        <ul class="filters-list list">
           <li class="filters-item">
-            <button class="filter-btn" type="button">Приложения</button>
+            <button class="filter-btn btn btn-current" type="button">Все</button>
           </li>
-          <li class="filters-item"><button class="filter-btn" type="button">Дизайн</button></li>
-          <li class="filters-item"><button class="filter-btn" type="button">Маркетинг</button></li>
+          <li class="filters-item">
+            <button class="filter-btn btn" type="button">Веб-сайты</button>
+          </li>
+          <li class="filters-item">
+            <button class="filter-btn btn" type="button">Приложения</button>
+          </li>
+          <li class="filters-item"><button class="filter-btn btn" type="button">Дизайн</button></li>
+          <li class="filters-item">
+            <button class="filter-btn btn" type="button">Маркетинг</button>
+          </li>
         </ul>
-        <ul class="projects-list">
+        <ul class="projects-list list">
           <li class="projects-item">
             <img
               class="project-img"
@@ -141,15 +158,15 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
+      <a class="footer-logo link" href="./index.html"><span class="accent-logo">Web</span>Studio</a>
       <address class="address">
-        <ul class="address-list">
+        <ul class="address-list list">
           <li class="address-item"><p class="address-desc">г. Киев, пр-т Леси Украинки, 26</p></li>
           <li class="address-item">
-            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="address-item">
-            <a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
